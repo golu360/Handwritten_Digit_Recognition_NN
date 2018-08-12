@@ -9,8 +9,10 @@ Pickle.
 
 
 Network.py contains all the source code about the implementation of Schocastic Gradient Desecent and the Network.
+
 MNIST_Loader.py simply loads the MNIST Digit Data and splits it into test,validation and training data.
+
 Deploy.py executes the recognition process,changes can be made to it accordingly.
 
 
-Uses a 784*30*10 NN architecture,where 784 Input Neurons,30 Hidden Neurons and 10 output neurons(1 neuron for each digit (0-9)).
+Uses a 784 x 30 x 10 NN architecture,where 784 Input Neurons,30 Hidden Neurons and 10 output neurons(1 neuron for each digit (0-9)).
